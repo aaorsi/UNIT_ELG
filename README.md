@@ -16,7 +16,10 @@ Number  of elgs:180892361
 
 The function `read_elgs()` has the following arguments:
 
-`def read_elgs(dirname, basename, ivol0, ivol1, Properties='all')`
+```p
+def read_elgs(dirname, basename, ivol0, ivol1, Properties='all')
+```
+
 
 where `dirname` and `basename` define the base of the filenames (see the exmaple in `read_lines.py`), 
 `ivol0`,`ìvol1` corresponds to the subvolumes to be read (0 to 999), and `Properties` can be set to a list
